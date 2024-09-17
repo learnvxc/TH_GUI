@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nhập số A -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số A" />
+
+    <EditText
+        android:id="@+id/edtNumberA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <!-- Nhập số B -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số B" />
+
+    <EditText
+        android:id="@+id/edtNumberB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <!-- Kết quả -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả sẽ hiển thị ở đây"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button tính tổng -->
+    <Button
+        android:id="@+id/btnSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính Tổng" />
+
+    <!-- Button tính hiệu -->
+    <Button
+        android:id="@+id/btnDifference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính Hiệu" />
+
+    <!-- Button tính tích -->
+    <Button
+        android:id="@+id/btnProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính Tích" />
+
+    <!-- Button tính thương -->
+    <Button
+        android:id="@+id/btnQuotient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính Thương" />
+
+    <!-- Button tính ước chung lớn nhất -->
+    <Button
+        android:id="@+id/btnGCD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ước Chung Lớn Nhất" />
+
+    <!-- Button thoát -->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:layout_marginTop="16dp"
+        android:onClick="exitApp" />
+
+</LinearLayout>
